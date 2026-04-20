@@ -1,1 +1,7 @@
 .vscode/*
+
+*.exe
+*.dll
+*.exp
+*.lib
+*.json
