@@ -5,6 +5,8 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 // 简单的 CUDA 错误检查辅助宏。
 // 在学习代码里，尽早失败可以快速定位问题。
 #define CUDA_CHECK(call)                                                            \

@@ -7,13 +7,14 @@
             "command": "nvcc",
             "args": [
                 "-g",
+                "-arch=sm_120",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": {
                 "kind": "build",
-                "isDefault": false
+                "isDefault": true
             },
             "problemMatcher": [
                 "$nvcc"
@@ -39,7 +40,7 @@
             ],
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "detail": "调试器生成的任务。"
         }
